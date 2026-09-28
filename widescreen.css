@@ -1,0 +1,27 @@
+@media(max-width: 900px){
+       .navbar{
+              gap: 15px;
+       }
+       .navbar a{
+              font-size: 13px;
+       }
+       .nav-btn{
+              display: none;
+       }
+       .hero-text h1{
+              font-size: 50px;
+       }
+       .about-grid,
+       .contact-grid{
+              grid-template-columns: 1fr;
+       }
+       .services-grid{
+              grid-template-columns: repeat(2, 1fr);
+       }
+       .projects-grid{
+              grid-template-columns: repeat(2, 1fr);
+       }
+       .footer-grid{
+              grid-template-columns: 1fr 1fr;
+       }
+}

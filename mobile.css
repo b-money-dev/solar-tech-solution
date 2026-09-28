@@ -1,0 +1,69 @@
+@media(max-width: 600px){
+       .container{
+              width: 92%;
+       }
+       .nav{
+              min-height: 70px;
+       }
+       .logo img{
+              width: 115px;
+       }
+       .navbar {
+              display: none;
+       }
+       .section{
+              padding: 70px 0;
+       }
+       .hero{
+              min-height: 600px;
+       }
+       .hero-text h1{
+              font-size: 40px;
+       }
+       .hero-description{
+              font-size: 16px;
+       }
+       .hero-buttons{
+              flex-direction: column;
+              align-items: flex-start;
+       }
+       .primary-btn,
+       .secondary-btn{
+              width: 100%;
+       }
+       .section-heading h2,
+       .about-text h2,
+       .contact-info h2,
+       .intro h2{
+              font-size: 34px;
+       }
+       .page-hero{
+              min-height: 280px;
+       }
+       .page-hero h1{
+              font-size: 40px;
+       }
+       .services-grid,
+       .project-grid{
+              grid-template-columns: 1fr;
+       }
+       .about-features{
+              grid-template-columns: 1fr;
+       }
+       .about-image img{
+              height: 350px;
+       }
+       .cta-content{
+              flex-direction: column;
+              align-items: flex-start;
+       }
+       .cta h2{
+              font-size: 30px;
+       }
+       .footer-grid{
+              grid-template-columns: 1fr;
+       }
+       .contact-form{
+              padding: 25px 20px;
+       }
+}
