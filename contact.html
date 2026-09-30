@@ -6,6 +6,7 @@
        <title>Contact Us | Solar Tech Solution</title>
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
        <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="script.js">
        <link rel="stylesheet"  media="screen and (max-width: 768px)" href="mobile.css">
        <link rel="stylesheet" href="widescreen.css">
 </head>
@@ -64,7 +65,7 @@
               <i class="fa-solid fa-envelope"></i>
               <div>
                 <span>Email Us</span>
-                <strong>Ezekwembonaventure@gmail.com</strong>
+                <strong>ezekwembonaventure@gmail.com</strong>
               </div>
        </div> 
        <div class="contact-item">
@@ -74,24 +75,22 @@
                  <strong>Onitsha, Anambra state</strong>
               </div>
        </div>
-       <!--whatsapp-->
-       <a href="" target="_blank" class="whatsapp-btn">
-              <i class="fa-brands fa-whatsapp"></i>
-              chat with us on whatsapp
-       </a>
        </div>
        <!--contact form-->
-      <form class="contact-form">
+      <form class="contactForm" action="https://formsubmit.co/Ezekwembonaventure@gmail.com" method="post">
+       <input type="hidden" name="subject" value="New Solar Tech Solution">
+       <input type="hidden" name="captcha" value="false">
+       <input type="hidden" name="-template" value="table">
        <label for="name">Name</label>
        <input type="text"
        id="name"
        name="name"
-       placeholder="Enter your name">
+       placeholder="Enter your name"required>
        <label for="email">Email</label>
        <input type="email"
        id="email"
        name="email"
-       placeholder="Enter your email address">
+       placeholder="Enter your email address" required>
        <label for="phone">Phone</label>
        <input type="tel"
        id="phone"
@@ -142,15 +141,13 @@
               </p>
               <p>
                 <i class="fa-solid fa-envelope"></i>
-                Ezekwembonaventure@email.com
+                ezekwembonaventure@email.com
               </p>
               <p>
                 <i class="fa-solid fa-location-dot"></i>
                 Nigeria
               </p>
-            </div>
-          </div>
-          <div>
+              <div>
               <h3>Connect With Us</h3>
        <div class="socials">
               <!--facebook-->
@@ -188,6 +185,9 @@
             <p>Built with care by B-Money Code</p>
           </div>
         </div>
+            </div>
+          </div>
+          
       </footer>
 </body>
 </html>
